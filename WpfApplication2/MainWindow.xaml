@@ -13,8 +13,8 @@
         <TextBox x:Name="up_mbs" HorizontalAlignment="Left" Height="23" Margin="136,129,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="51" TextChanged="up_mbs_TextChanged"/>
         <Label x:Name="label3" Content="Add meg a szolgáltató által adott sávszélességet!" HorizontalAlignment="Left" Margin="142,50,0,0" VerticalAlignment="Top"/>
         <Button x:Name="Button_calculate" Content="KALKULÁLJ!" HorizontalAlignment="Left" Margin="192,177,0,0" VerticalAlignment="Top" Width="75" Click="Button_calculate_Click" RenderTransformOrigin="-0.082,0.433"/>
-        <Label x:Name="label4" Content="mbs" HorizontalAlignment="Left" Margin="192,87,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="label4_Copy" Content="mbs" HorizontalAlignment="Left" Margin="192,124,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label4" Content="mbps" HorizontalAlignment="Left" Margin="192,87,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label4_Copy" Content="mbps" HorizontalAlignment="Left" Margin="192,124,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label2" Content="Feltöltési sávszélesség:" HorizontalAlignment="Left" Margin="7,124,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label5" Content="Valódi maximális sebesség:" HorizontalAlignment="Left" Margin="190,211,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
         <Label x:Name="label6" Content="Letöltés:" HorizontalAlignment="Left" Margin="111,234,0,0" VerticalAlignment="Top"/>
@@ -30,9 +30,9 @@
         <Label x:Name="label9" Content="Garantált letöltési sávszélesség:" HorizontalAlignment="Left" Margin="242,89,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label10" Content="Garantált feltöltési sávszélesség:" HorizontalAlignment="Left" Margin="242,124,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.869,0.519"/>
         <TextBox x:Name="garantalt_le_mbs" HorizontalAlignment="Left" Height="23" Margin="423,91,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="50" TextChanged="garantalt_le_mbs_TextChanged"/>
-        <Label x:Name="label4_Copy1" Content="mbs" HorizontalAlignment="Left" Margin="478,89,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label4_Copy1" Content="mbps" HorizontalAlignment="Left" Margin="478,89,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="garantalt_fel_mbs" HorizontalAlignment="Left" Height="23" Margin="423,129,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="50" TextChanged="garantalt_fel_mbs_TextChanged"/>
-        <Label x:Name="label4_Copy2" Content="mbs" HorizontalAlignment="Left" Margin="478,124,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label4_Copy2" Content="mbps" HorizontalAlignment="Left" Margin="478,124,0,0" VerticalAlignment="Top"/>
         <Button x:Name="nullazo_button" Content="Nullázás" HorizontalAlignment="Left" Margin="284,177,0,0" VerticalAlignment="Top" Width="75" Click="nullazo_button_Click"/>
 
     </Grid>
